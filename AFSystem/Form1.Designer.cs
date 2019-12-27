@@ -79,6 +79,8 @@
             this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculadoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minhasAnotaçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.minhaContaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verMeuHistóricoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripSeparator();
@@ -114,8 +116,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.lbdatadeHoje = new System.Windows.Forms.ToolStripLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -445,6 +445,18 @@
             this.minhasAnotaçõesToolStripMenuItem.Text = "Bloco de Notas";
             this.minhasAnotaçõesToolStripMenuItem.Click += new System.EventHandler(this.minhasAnotaçõesToolStripMenuItem_Click);
             // 
+            // wordToolStripMenuItem
+            // 
+            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
+            this.wordToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.wordToolStripMenuItem.Text = "Word";
+            // 
+            // excelToolStripMenuItem
+            // 
+            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.excelToolStripMenuItem.Text = "Excel";
+            // 
             // minhaContaToolStripMenuItem
             // 
             this.minhaContaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -653,6 +665,7 @@
             this.linkLabel5.TabIndex = 6;
             this.linkLabel5.TabStop = true;
             this.linkLabel5.Text = "Vendas...";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
             // linkLabel6
             // 
@@ -797,18 +810,6 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // wordToolStripMenuItem
-            // 
-            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
-            this.wordToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.wordToolStripMenuItem.Text = "Word";
-            // 
-            // excelToolStripMenuItem
-            // 
-            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
-            this.excelToolStripMenuItem.Text = "Excel";
             // 
             // Form1
             // 

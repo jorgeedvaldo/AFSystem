@@ -80,8 +80,7 @@ namespace AFSystem
 
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            openForm(new Consultar.ConsultarCliente());
-            
+            openForm(new Consultar.ConsultarCliente());           
         }
 
         private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -172,10 +171,9 @@ namespace AFSystem
             System.Diagnostics.Process.Start("notepad");
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
+            openForm(new Consultar.ConsultarVenda());
         }
-
     }
 }
