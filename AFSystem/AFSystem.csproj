@@ -68,6 +68,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bd.cs" />
     <Compile Include="Cadastrar\CadCliente.cs">
       <SubType>Form</SubType>
     </Compile>

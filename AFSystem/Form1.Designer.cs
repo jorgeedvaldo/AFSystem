@@ -88,7 +88,6 @@
             this.alterarNomeDeUtilizadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verAjudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.páginaWebToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripSeparator();
             this.sobreOSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreODesenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -198,35 +197,35 @@
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // produtoToolStripMenuItem
             // 
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
-            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.produtoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.produtoToolStripMenuItem.Text = "Produto";
             this.produtoToolStripMenuItem.Click += new System.EventHandler(this.produtoToolStripMenuItem_Click);
             // 
             // fornecedorToolStripMenuItem
             // 
             this.fornecedorToolStripMenuItem.Name = "fornecedorToolStripMenuItem";
-            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.fornecedorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.fornecedorToolStripMenuItem.Text = "Fornecedor";
             this.fornecedorToolStripMenuItem.Click += new System.EventHandler(this.fornecedorToolStripMenuItem_Click);
             // 
             // funcionárioToolStripMenuItem
             // 
             this.funcionárioToolStripMenuItem.Name = "funcionárioToolStripMenuItem";
-            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.funcionárioToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.funcionárioToolStripMenuItem.Text = "Funcionário";
             this.funcionárioToolStripMenuItem.Click += new System.EventHandler(this.funcionárioToolStripMenuItem_Click);
             // 
             // utilizadorToolStripMenuItem
             // 
             this.utilizadorToolStripMenuItem.Name = "utilizadorToolStripMenuItem";
-            this.utilizadorToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.utilizadorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.utilizadorToolStripMenuItem.Text = "Utilizador";
             this.utilizadorToolStripMenuItem.Click += new System.EventHandler(this.utilizadorToolStripMenuItem_Click);
             // 
@@ -495,7 +494,6 @@
             // 
             this.ajudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.verAjudaToolStripMenuItem,
-            this.páginaWebToolStripMenuItem,
             this.toolStripMenuItem9,
             this.sobreOSistemaToolStripMenuItem,
             this.sobreODesenvolvedorToolStripMenuItem});
@@ -507,13 +505,7 @@
             // 
             this.verAjudaToolStripMenuItem.Name = "verAjudaToolStripMenuItem";
             this.verAjudaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.verAjudaToolStripMenuItem.Text = "Ver Ajuda";
-            // 
-            // páginaWebToolStripMenuItem
-            // 
-            this.páginaWebToolStripMenuItem.Name = "páginaWebToolStripMenuItem";
-            this.páginaWebToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.páginaWebToolStripMenuItem.Text = "Página Web";
+            this.verAjudaToolStripMenuItem.Text = "Ajuda";
             // 
             // toolStripMenuItem9
             // 
@@ -897,7 +889,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem verAjudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem páginaWebToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem9;
         private System.Windows.Forms.ToolStripMenuItem sobreOSistemaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreODesenvolvedorToolStripMenuItem;
