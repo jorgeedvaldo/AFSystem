@@ -13,7 +13,7 @@ namespace AFSystem
         //metodo para estabelecer a conexão com o servidor
         public static OleDbConnection Conexao()
         {
-            String conexao = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=|DataDirectory|\Bd\BdPastelaria.accdb";
+            String conexao = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=|DataDirectory|\Bd\YourBD.accdb";
             OleDbConnection link = new OleDbConnection(conexao);
             return link;
         }
